@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" mainViewID="676393A3-62E7-8F3C-EE60-5EC36194B377">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:36:57 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>01F6E6D1-21D0-CFBD-ABDD-3988D1813575</selectedRDBMSSite>
+<importDDLFileStamps>
+<importDDLFileStamp class="oracle.dbtools.crest.imports.DDLFileStamp">
+<fileName>recolab_modelo_relacional.sql</fileName>
+<pathName>C:\Users\catar\OneDrive\Desktop\ReColab\Dados</pathName>
+<dbType>17</dbType>
+</importDDLFileStamp>
+</importDDLFileStamps>
+</relationalModel>

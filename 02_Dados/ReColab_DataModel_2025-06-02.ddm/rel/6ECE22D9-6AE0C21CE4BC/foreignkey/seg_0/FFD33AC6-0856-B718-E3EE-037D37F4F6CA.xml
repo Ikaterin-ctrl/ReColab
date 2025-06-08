@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FFD33AC6-0856-B718-E3EE-037D37F4F6CA" containerWithKeyObject="5C42B518-0645-F0C3-647E-2959A92D6327" localFKIndex="9CAE07B5-449F-74B1-D985-9D34B0C11242" name="Coleta_Item_Item_FK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>D87B8591-60A4-AAE7-BD24-6671207F656D</importedID>
+<referredTableLongName>Item</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2CA2E10A-FE7F-AA59-4C7A-AACEDD4518C8</referredTableID>
+<keyObject>74BF6B31-7BC4-9C73-07AD-7956F34D6EC0</keyObject>
+<referredKeyID>74BF6B31-7BC4-9C73-07AD-7956F34D6EC0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_item</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

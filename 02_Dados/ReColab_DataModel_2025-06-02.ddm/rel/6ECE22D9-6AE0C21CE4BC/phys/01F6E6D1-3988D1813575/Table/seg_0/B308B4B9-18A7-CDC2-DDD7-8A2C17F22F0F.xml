@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Usuario_Recompensa" directorySegmentName="seg_0" id="B308B4B9-18A7-CDC2-DDD7-8A2C17F22F0F">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="id_recompensa" id="88FD9042-6330-4AD6-32A7-734C4B8AE90D">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="data_resgate" id="CB386C91-8EAD-79CD-8140-25A1CED97746">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario" id="CC1E2ED0-64E3-44B4-9330-653457D94E04">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Usuario_Recompensa_Usuario_FK" id="B223B56F-4EE3-7F14-BF2E-92C83268CF46">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="Usuario_Recompensa_Recompensa_FK" id="BD5537C5-40C9-7697-BEBA-89DB760EA2C7">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Usuario_Recompensa_PK" id="3E6D6A1E-2AD7-9831-A4F7-CA5EAA23DB05">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

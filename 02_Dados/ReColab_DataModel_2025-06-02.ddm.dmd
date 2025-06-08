@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ReColab_DataModel_2025-06-02.ddm" id="66330C58-8947-D398-78B5-5B830DD599A7" version="3.5">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:36:55 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>66330C58-8947-D398-78B5-5B830DD599A7</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="E4BDDF28-96BE-39D9-B6EF-EC583BDD8869">
+<designStoragePath>C:\recolab_modelo_relacional</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

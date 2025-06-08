@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Coleta_Item_Item_FK" directorySegmentName="seg_0" id="80F9E93D-E190-6ACD-BC3C-EFC20360F4AF">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:38:56 UTC</createdTime>
+<generatorID>FFD33AC6-0856-B718-E3EE-037D37F4F6CA</generatorID>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<engineerTo>
+<item key="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" value="true"/>
+</engineerTo>
+<sourcePk>7771355B-D37B-D50D-84CF-FF7D1554628F</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3FE80128-58ED-1542-1F64-E9F6DD6BBEC8</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D64B4954-5EB2-D5F9-A0BD-AEA34A524396</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

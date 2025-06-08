@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Item_Usuario_FK" directorySegmentName="seg_0" id="83B65823-B845-BFAD-572D-F5C4E9E91E6F">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:38:56 UTC</createdTime>
+<generatorID>13C6C584-77E5-D769-EE17-59DF80B07C23</generatorID>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<engineerTo>
+<item key="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" value="true"/>
+</engineerTo>
+<sourcePk>462750E7-00F9-99C9-8840-C5889BE08801</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>950B5107-E3D9-A5CF-3768-8A7FCB47D70F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3FE80128-58ED-1542-1F64-E9F6DD6BBEC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

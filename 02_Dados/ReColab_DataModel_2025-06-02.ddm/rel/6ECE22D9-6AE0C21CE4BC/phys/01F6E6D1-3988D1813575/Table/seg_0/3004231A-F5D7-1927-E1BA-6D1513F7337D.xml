@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="Usuario" directorySegmentName="seg_0" id="3004231A-F5D7-1927-E1BA-6D1513F7337D">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="nome" id="51C03C66-FC90-D8CB-B55F-FF2C1AC9554D">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="senha" id="5DC33847-16CE-4D70-F6B0-FE5CABDECE2E">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="id_usuario" id="66E4D15A-6AE0-5396-105B-8A6B0F6DABC3">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="estado" id="6C7FD1F2-9D0F-099F-CFB6-CBDE6DF184D1">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="email" id="AF73045D-1774-A74D-C63F-3485B0A9463C">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="cidade" id="FBD666C9-5317-34E5-6045-D1F61C488CC7">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="Usuario_PK" id="F7EBC752-7065-5687-2DF5-814350D0CA45">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</PrimaryKey>
+</primaryKeys>
+<uniqueKeys>
+<UniqueKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UniqueOraclev10g" name="INDEX_1" id="CA9B1287-F702-6507-C593-958CD78B5D09">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexSort>SORTED</indexSort>
+</UniqueKey>
+</uniqueKeys>
+</TableProxyOraclev20c>

@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5C42B518-0645-F0C3-647E-2959A92D6327" name="Coleta_Item">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>9D7137FE-7BA0-0260-7EAD-B6B404EC72FE</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_coleta" id="9EF212BC-D32A-2251-B47F-C5B8ACA82E74">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>793F760A-1956-6EC4-90B7-220D93395EFA</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7C4171E-9D9E-D104-EC7F-029B0CA967AB" referredColumn="889E3687-EA08-865D-D27E-474030FCA9B3"/>
+</associations>
+</Column>
+<Column name="id_item" id="AEC549E9-C069-53A0-6E35-EDE5F76BAF93">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>810A1EAF-4A7C-86C0-18EF-22235A6B6629</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFD33AC6-0856-B718-E3EE-037D37F4F6CA" referredColumn="BD598E5F-DCB6-BCD3-4F09-0B9BEA7761B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD276442-31CE-3358-7393-ACDB8DA3FEF6" name="Coleta_Item_PK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>1E997E2A-BB2F-240F-3BED-4D92FA830B7C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EF212BC-D32A-2251-B47F-C5B8ACA82E74"/>
+<colUsage columnID="AEC549E9-C069-53A0-6E35-EDE5F76BAF93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A45B7AFA-DC16-2A9D-0016-B907D9DD2F63" name="Coleta_Item_Coleta_FK">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9EF212BC-D32A-2251-B47F-C5B8ACA82E74"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9CAE07B5-449F-74B1-D985-9D34B0C11242" name="Coleta_Item_Item_FK">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEC549E9-C069-53A0-6E35-EDE5F76BAF93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

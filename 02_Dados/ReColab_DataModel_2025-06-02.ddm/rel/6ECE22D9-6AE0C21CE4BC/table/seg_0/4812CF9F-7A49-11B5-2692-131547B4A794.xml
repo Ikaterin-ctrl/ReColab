@@ -1,0 +1,131 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4812CF9F-7A49-11B5-2692-131547B4A794" name="Impacto">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>19D48899-97C3-5A55-2A66-80BFA667847E</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_impacto" id="3767702E-1302-56F8-D2B9-647A7A1D0E5C">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>7AA7A5E9-67A6-FCA8-657E-EA0607250E03</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="16FC59DF-354A-71BE-FB34-31FE8D7D925A">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>6FF7E7A9-EAF3-5A0F-B46D-918752D99036</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BE7D1000-228C-5BAE-087F-4BDDC7BC7843" referredColumn="66E4D15A-6AE0-5396-105B-8A6B0F6DABC3"/>
+</associations>
+</Column>
+<Column name="total_kg_doados" id="47DFD288-E266-6939-48C4-DFF74A06A12D">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>A0AEB417-A72D-D41A-EC09-2C2AAE5E89D7</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>FD4A7F3A-C24B-4CEE-E083-6F3FF9CFBF15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total_itens" id="D376AA22-D0A7-4BF7-848B-9C4D2D1627D2">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>3BE353BC-A2A6-F432-0BA7-E78909554842</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="familias_impactadas" id="F1ACF499-B275-2875-F561-8D66662AF971">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>9581FC16-A0E5-6D8F-6A4B-DDFDE35AE00D</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reciclaveis_redirecionados_kg" id="10875003-14AA-ABD3-04E6-FD893F24ADCE">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>C52C59CE-E9D2-AA60-CAD3-7BF43964AD4C</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>FD4A7F3A-C24B-4CEE-E083-6F3FF9CFBF15</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_atualizacao" id="AFA747A7-AEB8-A7BD-7622-AF35124B0604">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>6003FBE3-5D6E-582A-F465-F682A5E6924F</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>119B92EF-0547-EE32-377E-0C142BB96DF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9635F4FB-AD75-D3BB-59AD-6CA45849AA98" name="Impacto_PK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>46C51C2D-54D2-DB51-3FF8-16757C292E99</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3767702E-1302-56F8-D2B9-647A7A1D0E5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E0FC7C0B-32E8-A2E9-06AB-2F4679213D89" name="Impacto_Usuario_FK">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16FC59DF-354A-71BE-FB34-31FE8D7D925A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D64B4954-5EB2-D5F9-A0BD-AEA34A524396" name="Coleta Item">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:38:56 UTC</createdTime>
+<generatorID>5C42B518-0645-F0C3-647E-2959A92D6327</generatorID>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<engineerTo>
+<item key="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id coleta" id="16D77C18-4E6F-6AE7-0008-14D57CF7FAE6">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:38:56 UTC</createdTime>
+<generatorID>D6C03C6D-3B95-3E7B-9310-3A2C612CECCC</generatorID>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<engineerTo>
+<item key="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" value="true"/>
+</engineerTo>
+<referedAttribute>64ECEDFE-1510-AD9A-D17F-E9EFDCEC794F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id item" id="4AF0D93E-A4EF-0DC3-8DC8-F4A2A7264C00">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:38:56 UTC</createdTime>
+<generatorID>80F9E93D-E190-6ACD-BC3C-EFC20360F4AF</generatorID>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<engineerTo>
+<item key="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" value="true"/>
+</engineerTo>
+<referedAttribute>83CE4A75-447C-3310-E16A-F0FBB3B777B0</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F804061A-0F2A-35EC-E3C4-86E54956DEBF" name="Coleta Item PK">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:38:56 UTC</createdTime>
+<generatorID>AD276442-31CE-3358-7393-ACDB8DA3FEF6</generatorID>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<engineerTo>
+<item key="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>16D77C18-4E6F-6AE7-0008-14D57CF7FAE6</attributeRef>
+<attributeRef>4AF0D93E-A4EF-0DC3-8DC8-F4A2A7264C00</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

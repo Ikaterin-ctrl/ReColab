@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2CA2E10A-FE7F-AA59-4C7A-AACEDD4518C8" name="Item">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>A8991AC9-B245-547B-6AC4-193978AD977A</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_item" id="BD598E5F-DCB6-BCD3-4F09-0B9BEA7761B3">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>BFF04FA2-F824-3652-1BE4-17FB37FF4B87</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="5CAD227A-9E9D-CF60-3F04-AFDCDBD65E3B">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>8A3A4820-FB36-BD87-AB2D-ED71D21C7421</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>92701341-44F5-0E88-F6D0-1804C0C528BF</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="C2CE79A1-98B4-D6C9-6D8C-C0F9B7743A1D">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>BC821525-E85F-5627-76D3-E9F91649AED2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso_kg" id="0C764290-0037-E0A5-1F7E-5C6A0B48A36B">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>218A4DD2-8E72-F2E3-4537-E504268A48C2</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<domain>330D5C8D-F712-C6C8-CEB8-45200BA8F51A</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_cadastro" id="A4B77BFF-076B-1439-7B43-C349C4109A9E">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>09169350-3AD0-62F3-8E2D-ADA16E989162</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>119B92EF-0547-EE32-377E-0C142BB96DF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="410C94D5-E76B-2DA7-CF72-7229173F11DB">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>72CE442E-17D2-9931-DB7E-8D793F24AF9A</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13C6C584-77E5-D769-EE17-59DF80B07C23" referredColumn="66E4D15A-6AE0-5396-105B-8A6B0F6DABC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="74BF6B31-7BC4-9C73-07AD-7956F34D6EC0" name="Item_PK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>A64CB2B6-902E-1102-AB32-981A2FC2B6EE</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD598E5F-DCB6-BCD3-4F09-0B9BEA7761B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E8176EFA-5C68-9CDF-E033-B01B6BB13EDF" name="Item_Usuario_FK">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="410C94D5-E76B-2DA7-CF72-7229173F11DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

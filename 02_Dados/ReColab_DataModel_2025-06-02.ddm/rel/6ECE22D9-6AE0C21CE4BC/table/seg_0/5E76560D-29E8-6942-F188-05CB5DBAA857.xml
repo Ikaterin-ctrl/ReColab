@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5E76560D-29E8-6942-F188-05CB5DBAA857" name="Coleta">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>B358391A-A109-E70F-7F54-A0841EF2343F</importedID>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_coleta" id="889E3687-EA08-865D-D27E-474030FCA9B3">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>327C900B-E156-2AE2-78F0-75C3D06F0F7D</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_agendada" id="FE0E4F7C-44C7-4F2E-7A6E-C78AE90F4360">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>F4C5FA8F-6234-3DD8-C828-F6C47E93049F</importedID>
+<use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>119B92EF-0547-EE32-377E-0C142BB96DF1</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="86D9F65F-45DA-F633-928B-4DC6FC2438A2">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>3C0BDB9D-39C3-4603-C7AA-E289048C4F83</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>92701341-44F5-0E88-F6D0-1804C0C528BF</domain>
+<defaultValue>&apos;agendada&apos;</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_usuario" id="60EA54E6-C768-8EC6-D35F-B7F7D9479563">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>C4C2566D-B966-707A-0438-B922A0216FFB</importedID>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<domain>FFADE8AA-A3AC-721F-369C-12EC157465E6</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20D98CB1-4CB3-3833-DC53-DAA2681F38D2" referredColumn="66E4D15A-6AE0-5396-105B-8A6B0F6DABC3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A6994269-EBFD-5016-771B-EF98F4A0E922" name="Coleta_PK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>1C4911F7-4E8B-F961-9C8C-AB1CA8DEBA64</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="889E3687-EA08-865D-D27E-474030FCA9B3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C599C0A-C66A-17E2-3902-480D3E01F70C" name="Coleta_Usuario_FK">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60EA54E6-C768-8EC6-D35F-B7F7D9479563"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

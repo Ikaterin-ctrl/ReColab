@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BE7D1000-228C-5BAE-087F-4BDDC7BC7843" containerWithKeyObject="4812CF9F-7A49-11B5-2692-131547B4A794" localFKIndex="E0FC7C0B-32E8-A2E9-06AB-2F4679213D89" name="Impacto_Usuario_FK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>E8F93D0E-0062-4EF7-851C-E1429ADD6ABB</importedID>
+<referredTableLongName>Usuario</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>3004231A-F5D7-1927-E1BA-6D1513F7337D</referredTableID>
+<keyObject>F7EBC752-7065-5687-2DF5-814350D0CA45</keyObject>
+<referredKeyID>F7EBC752-7065-5687-2DF5-814350D0CA45</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

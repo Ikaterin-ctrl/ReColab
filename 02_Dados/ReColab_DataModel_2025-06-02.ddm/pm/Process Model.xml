@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="BD582E41-5BAB-AD30-C4B0-0F01182F0B74">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:36:55 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

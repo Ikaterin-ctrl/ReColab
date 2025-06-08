@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3DEF0F4C-BB37-D167-B924-27BDB2DDB40A" containerWithKeyObject="B308B4B9-18A7-CDC2-DDD7-8A2C17F22F0F" localFKIndex="BD5537C5-40C9-7697-BEBA-89DB760EA2C7" name="Usuario_Recompensa_Recompensa_FK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>E790288F-E244-64E9-C54E-E4366C762CA8</importedID>
+<referredTableLongName>Recompensa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>96AFB352-65A4-73D5-E4F5-B2E457DB903D</referredTableID>
+<keyObject>E6185B95-F3F2-08CF-E7E8-5202063A8E87</keyObject>
+<referredKeyID>E6185B95-F3F2-08CF-E7E8-5202063A8E87</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_recompensa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

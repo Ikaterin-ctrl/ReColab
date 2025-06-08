@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="2CBA613A-6C0C-1BFD-0C56-AC6FA32F6251" mainViewID="72A68AFA-31A4-9E21-E18B-B0A4ED68F59B">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:36:55 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5B6B9A49-6A7A-B342-428D-5F58E7C7F363" containerWithKeyObject="96AFB352-65A4-73D5-E4F5-B2E457DB903D" localFKIndex="597A80DB-E5CC-EEFF-10B2-AF1DDB50D903" name="Recompensa_Parceiro_FK">
+<sourceDDLFile>recolab_modelo_relacional.sql</sourceDDLFile>
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:37:49 UTC</createdTime>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<importedID>91913880-2BA7-C26E-F9E6-35CDC6FF06C7</importedID>
+<referredTableLongName>Parceiro</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>17DAA977-FBEF-A8E9-482F-04A103C297FF</referredTableID>
+<keyObject>47DF26D6-B854-EEC8-927B-BE3CE4FCFA07</keyObject>
+<referredKeyID>47DF26D6-B854-EEC8-927B-BE3CE4FCFA07</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_parceiro</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

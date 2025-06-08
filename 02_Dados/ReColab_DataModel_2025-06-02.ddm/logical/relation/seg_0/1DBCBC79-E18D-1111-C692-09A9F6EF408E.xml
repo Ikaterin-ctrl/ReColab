@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Usuario_Recompensa_Recompensa_FK" directorySegmentName="seg_0" id="1DBCBC79-E18D-1111-C692-09A9F6EF408E">
+<createdBy>catar</createdBy>
+<createdTime>2025-06-02 14:38:56 UTC</createdTime>
+<generatorID>3DEF0F4C-BB37-D167-B924-27BDB2DDB40A</generatorID>
+<ownerDesignName>ReColab_DataModel_2025-06-02.ddm</ownerDesignName>
+<engineerTo>
+<item key="6ECE22D9-07ED-0C12-1E9D-6AE0C21CE4BC" value="true"/>
+</engineerTo>
+<sourcePk>7D08EF8A-5EF9-CC61-EEF4-C375D5036825</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>92A85E86-7850-AA97-52D3-EC1A44FA767E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5F917DB4-8F92-6D07-11FC-4E42387EF947</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
